@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Quantum Computing</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="iicon1.png" type="image/gif" sizes="16x16">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-purple w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-purple" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="FinalWeb.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Intro</a>
+    <a href="Uses.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">Uses</a>
+    <a href="Careers.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Careers</a>
+  </div>
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="FinalWeb.html" class="w3-bar-item w3-button w3-padding-large">Intro</a>
+    <a href="Careers.html" class="w3-bar-item w3-button w3-padding-large">Careers</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-purple w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Uses of Quantum Computing</h1>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Different Uses</h1>
+      <h5 class="w3-padding-32">Quantum can be used for many different things from weather forecasting to artificial intelligence. This allows for quantum computers to be used in many different careers. You don't have to know how they work for these jobs but it will be used if it needed.</h5>
+
+      <p class="w3-text-grey">Quantum sees use in development of batteries, to make them more efficient, fertilizer, to make it cleaner, in traffic control for timing. It makes quick and complicated calculations making it useful in drug development. Also it can look at finer details for elctronic materials to make them smaller and faster. Used in A.I. for complex code and programming. Can take the weather outlook and see the affects of climate change. </p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="Uses.jpg" width="340">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Where Quantum is Headed</h1>
+      <h5 class="w3-padding-32">The future of quantum is very bright with new dicoveries being made everyday and many new uses emerging along with the discoveries. </h5>
+
+      <p class="w3-text-grey">The expectations for quantum computers are that they will help us understand biology and evolution further, take steps in finding a cure for cancer, and even asisst in reversing climate change. Even further people expect for quantum computer help in schools helping provide a further understanding of a subject not nessacerly replacing teachers but help in the teaching process.</p>
+    </div>
+    <div class="w3-third w3-center">
+      <img src="future.jpg" width=360>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
